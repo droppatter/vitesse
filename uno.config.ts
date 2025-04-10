@@ -26,6 +26,15 @@ export default defineConfig({
     {
       'hr-line': 'w-14 mx-auto my-8 border-solid border-1px !border-truegray-200 !dark:border-truegray-800',
     },
+    {
+      'bg-base': 'bg-light-100 dark:bg-dark-600',
+      'fg-base': 'text-neutral-500 dark:text-neutral-300',
+      'fg-emphasis': 'text-dark dark:text-light',
+      'hv-base': 'transition-colors duration-300 hover:fg-emphasis',
+      'border-base': 'border-light-700 dark:border-dark-300',
+      'text-emphasis': 'font-serif font-italic text-lg fg-emphasis',
+      'border-emphasis': 'border-neutral-400 dark:border-light',
+    },
   ],
   presets: [
     presetUno(),
@@ -40,8 +49,10 @@ export default defineConfig({
     presetTypography(),
     presetWebFonts({
       fonts: {
-        sans: 'Inter:400,600,800',
-        mono: 'DM Mono:400,600',
+        // sans: 'Inter:400,600,800',
+        // mono: 'DM Mono:400,600',
+        serif: 'Newsreader',
+        noto: 'Noto Sans SC',
       },
     }),
   ],

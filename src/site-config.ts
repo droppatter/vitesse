@@ -1,13 +1,13 @@
 export const siteConfig = {
-  author: 'Kevin Wong',
-  title: 'Vitesse theme for Astro',
-  subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
-  description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
+  author: 'Glyko',
+  title: 'Revisions II',
+  subtitle: 'Corn flow to notes',
+  description: 'Testing with some interesting projects.',
   image: {
     src: '/hero.jpg',
     alt: 'Website Main Image',
   },
-  email: 'kevinwong865@gmail.com',
+  email: 'someonelikeyou@maybe.com',
   socialLinks: [
     {
       text: 'GitHub',
@@ -51,10 +51,10 @@ export const siteConfig = {
         text: 'Notes',
         href: '/blog/notes',
       },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
-      },
+      // {
+      //   text: 'Talks',
+      //   href: '/blog/talks',
+      // },
       {
         text: 'Projects',
         href: '/projects',
@@ -71,10 +71,10 @@ export const siteConfig = {
         text: 'Notes',
         href: '/blog/notes',
       },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
-      },
+      // {
+      //   text: 'Talks',
+      //   href: '/blog/talks',
+      // },
     ],
   },
   footer: {

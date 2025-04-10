@@ -9,6 +9,16 @@ export default defineConfig({
   server: {
     port: 1977,
   },
+  head: [
+    {
+      tag: 'link',
+      attrs: {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/favicon.svg',
+      },
+    },
+  ],
   integrations: [
     mdx(),
     sitemap(),
